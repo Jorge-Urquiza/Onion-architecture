@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
 using MediatR;
 
-namespace Application.Behaviors
+namespace Application.Behaviours
 {
     public class ValidationBehavior<IRequest, IResponse> : IPipelineBehavior<IRequest, IResponse> 
             where IRequest : IRequest<IResponse>
@@ -19,6 +19,7 @@ namespace Application.Behaviors
                 var failures = validationResults.SelectMany(r => r.Errors).Where(f => f != null).ToList();
 
                 if (failures.Count != 0) {
+                    //custom
                     throw new Exceptions.ValidationException(failures); 
                 }
             }

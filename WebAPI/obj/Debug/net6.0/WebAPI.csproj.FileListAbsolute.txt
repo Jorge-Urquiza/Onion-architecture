@@ -25,3 +25,5 @@ D:\practices\Curso de asp\BancoCursoRestFul\WebAPI\obj\Debug\net6.0\refint\WebAP
 D:\practices\Curso de asp\BancoCursoRestFul\WebAPI\obj\Debug\net6.0\WebAPI.pdb
 D:\practices\Curso de asp\BancoCursoRestFul\WebAPI\obj\Debug\net6.0\WebAPI.genruntimeconfig.cache
 D:\practices\Curso de asp\BancoCursoRestFul\WebAPI\obj\Debug\net6.0\ref\WebAPI.dll
+D:\practices\Curso de asp\BancoCursoRestFul\WebAPI\bin\Debug\net6.0\MediatR.dll
+D:\practices\Curso de asp\BancoCursoRestFul\WebAPI\bin\Debug\net6.0\MediatR.Contracts.dll
